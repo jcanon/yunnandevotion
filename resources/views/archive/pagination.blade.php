@@ -1,0 +1,1 @@
+<nav class="actions">@if($items->previousPageUrl())<a class="button" href="{{ $items->previousPageUrl() }}">{{ $t('users.previous') }}</a>@endif @if($items->nextPageUrl())<a class="button" href="{{ $items->nextPageUrl() }}">{{ $t('users.next') }}</a>@endif</nav>
